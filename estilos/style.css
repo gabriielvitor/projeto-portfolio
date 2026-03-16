@@ -40,6 +40,10 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 nav#menu ul {
@@ -242,6 +246,7 @@ article#video .video-container {
 
 #projeto-container .foto {
   width: 100%;
+  border-radius: 10px;
   aspect-ratio: 16/9;
   object-fit: cover;
   overflow: hidden;
@@ -280,8 +285,9 @@ footer a:hover {
 
     #projeto-container .foto {
       aspect-ratio: 1/1;
-      max-width: 20%;
+      max-width: 80%;
       max-height: 200px;
+      border-radius: 10px;
     }
   
 }
